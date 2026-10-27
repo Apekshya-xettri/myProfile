@@ -47,3 +47,225 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+
+
+
+
+/* /////////////////////////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style-type: none;
+}
+
+button a{
+  text-decoration: none;
+}
+
+.logo{
+  width: 3rem;
+  height: auto;
+}
+main{
+  min-height: calc(100vh - 176px);
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.icon-box {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box svg{
+  width: 16px;
+  height: 16px;
+}
+.about-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+#skill-sec1{
+  background-color: #052343;
+}
+.contact-bgImg{
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+/*.floated-img{
+  width:  1rem;
+  /* height: 5rem; */
+
+.floated-img {
+  width: clamp(80px, 10vw, 500px);
+  height: auto;
+}
+.floated-img{
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    transform: translate();
+
+}
+.floated-logos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    overflow: hiddenw;
+}
+
+#react{
+  position: relative;
+  animation-name: react;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@media(min-width: 700px){
+    @keyframes react{
+    0%{transform: translateY(0px);}
+    50%{transform: translatex(80px);}
+    100%{transform: translatey(100px);}
+}
+}
+
+#img{
+    position: relative;
+    animation-name: bootstrap;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@media(min-width: 700px){
+    @keyframes bootstrap{
+    0%{transform: translateY(0px);}
+    50%{transform: translatex(-50px);}
+    100%{transform: translateY(100px);}
+}
+}
+#html{
+    position: absolute;
+    animation-name: html;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  
+
+}
+
+@keyframes html{
+    0% ,from {top: 400px; left: 0px;}
+    50%{left: 100px;}
+    100%{left: 0px; top: 300px;}
+}
+
+#css{
+    position: absolute;
+    animation-name: css;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes css{
+    0% ,from {top: 400px; right: 10px;}
+    50%{right: 90px;}
+    100%{right: 10px; bottom: 50px;}
+}
+#js{
+    position: absolute;
+    animation-name: js;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes js{
+    0% ,from {top: 0px; left: 70px;}
+    50%{left: 40px;}
+    100%{top: 90px; right: 70px;}
+}
+
+  .skills h2{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.progress-bar{
+    width: 300px;
+    height: 20px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.progress-bar div{
+    height: 20px;
+    width: 50%;
+    align-items: center;
+    border-radius: 5px;
+    /* background-color: aqua; */
+}  
+.progress-bar span{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+}
+.progress-bar .html{
+    width: 90%;
+    background-color: #d83e17;
+}
+.progress-bar .css{
+    width: 80%;
+    background-color: #ed61c5;
+}
+.progress-bar .js{
+    width: 70%;
+    background-color: yellowgreen;
+}
+.progress-bar .react{
+    width: 70%;
+    background-color: orange;
+}
+.progress-bar .tailwind{
+    width: 75%;
+    background-color: rgb(138, 79, 79);
+}
+.progress-bar .bootstrap{
+    width: 80%;
+    background-color: rgb(229, 117, 136);
+}
+.progress-bar .sass{
+    width: 80%;
+    background-color: rgb(75, 75, 243);
+}
